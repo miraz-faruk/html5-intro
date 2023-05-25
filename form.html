@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+        h1{
+            text-align: center;
+            color: hotpink;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Welcome to Jamal er Ma Pitha Ghor</h1>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+
+        <label for="mobile">Your Phone No.
+            <input id="mobile" type="number" placeholder="Your Mobile No.">
+        </label>
+
+        <label for="email">Your Email
+            <input id="email" type="text" placeholder="Your Email">
+        </label>
+
+        <label for="pin">Your PIN
+            <input id="pin" type="number" placeholder="Your PIN">
+        </label>
+
+        <fieldset>
+            <legend>Choose one Pitha</legend>
+
+            <label for="pitha">
+                <input type="radio" name="pitha" id="chitoi">
+            Chitoi
+            </label>
+            <label for="pitha">
+                <input type="radio" name="pitha" id="vapa">
+            Vapa
+            </label>
+            <label for="pitha">
+                <input type="radio" name="pitha" id="patishapta">
+            Patishapta
+            </label>
+            <label for="pitha">
+                <input type="radio" name="pitha" id="puli">
+            Puli
+            </label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose one or more Vortas</legend>
+            <input type="checkbox" name="vorta" id="shorisha">
+            Shorisha
+            <input type="checkbox" name="vorta" id="pudina">
+            Pudina
+            <input type="checkbox" name="vorta" id="shutki">
+            Shutki
+            <input type="checkbox" name="vorta" id="morich">
+            Morich
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Requirement</legend>
+            <textarea name="" id="special" cols="60" rows="3"></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+
+    </form>
+</body>
+</html>
