@@ -1,0 +1,14 @@
+nav ul{
+    display: flex;    
+}
+nav li{
+    list-style: none;
+    padding: 0 10px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: palevioletred;
+
+}
