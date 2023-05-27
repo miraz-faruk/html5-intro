@@ -1,5 +1,6 @@
-nav ul{
-    display: flex;    
+nav > ul{
+    display: flex;
+       
 }
 nav li{
     list-style: none;
@@ -10,5 +11,13 @@ nav li a{
 }
 nav li:hover{
     background-color: palevioletred;
-
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    padding-left: 0;
+}
+nav li:hover .dropdown{
+    display: block;
 }
